@@ -224,7 +224,7 @@ defineExpose({
           class="vfm__content vfm--outline-none"
           :class="[contentClass, { 'vfm--prevent-auto': background === 'interactive' }]"
           :style="contentStyle"
-          tabindex="0"
+          tabindex="-1"
           v-bind="bindSwipe"
           @mousedown="() => onMousedown()"
         >
